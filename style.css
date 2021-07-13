@@ -22,11 +22,11 @@ main,header{
 a{
     text-decoration: none;
 }
-h3,p{
+h3,h4,p{
     font-family: 'Poppins', 'Roboto', sans-serif;
     margin: 5px;
 }
-h3{
+h3,h4{
     font-size: 20px;
   
 }
@@ -173,10 +173,8 @@ hr{
     color:#FF4A60;
     
 }
- .counters{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
- }
+
+ 
 .counter{
     display: flex;
     justify-content: center;
@@ -186,7 +184,7 @@ hr{
  }
 .cout-item{
     padding: 10px 10px;
-    margin: 5px 20px;
+    margin: 5px 30px;
     text-align: center;
 }
 .footer-section> p{
